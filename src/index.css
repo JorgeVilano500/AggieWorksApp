@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body.active-modal {
+    overflow-y: hidden;
+}
+
+html {
+    background-color: aliceblue;
+}
