@@ -1,4 +1,6 @@
 import React, {useState} from 'react'
+import BTC from '../assets/bitcoin.png'
+import X from '../assets/x.png'
 
 function Modal({name, major, interest}) {
     const [modal, setModal] = useState(false)
@@ -19,11 +21,13 @@ function Modal({name, major, interest}) {
                     <h2 className='text-4xl'>Hello, I'm {name}.</h2>
                     <p>This is meant to be a small easter egg lol. You have a good eye. Just a little about me, buy crypto! My major is {major} and I really like {interest}.</p>
 
-
+                    <div className='flex align-self-center justify-center'>
+                    <img  src={BTC} /><img  src={BTC} /><img  src={BTC} /><img  src={BTC} />
+                        </div>
                 </div>
 
             <button className='close-modal bg-gray-400 rounded-full' onClick={toggleModal}>
-                X
+                <img src={X} />
             </button>
             </div>
 
