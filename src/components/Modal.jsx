@@ -24,6 +24,7 @@ function Modal({name, major, interest}) {
                     <div className='flex align-self-center justify-center'>
                     <img  src={BTC} /><img  src={BTC} /><img  src={BTC} /><img  src={BTC} />
                         </div>
+                        <a href='https://github.com/JorgeVilano500/AggieWorksApp' target='_blank'>https://github.com/JorgeVilano500/AggieWorksApp</a>
                 </div>
 
             <button className='close-modal bg-gray-400 rounded-full' onClick={toggleModal}>
